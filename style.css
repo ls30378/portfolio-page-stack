@@ -425,6 +425,7 @@ opacity: 0;
 
 #about.first.active,
 #project.first.active{
+    top:10px;
     transform:perspective(2000px) scale(0.8) rotateX(-30deg) translateY(150px);
     box-shadow: 10px -10px 10px -5px var(--darkGrey);
 }
@@ -434,6 +435,7 @@ opacity: 0;
 }
 #about.second.active,
 #project.second.active{
+    top:10px;
   transform:perspective(2000px) scale(0.8) rotateX(-30deg) translateY(70px) translateX(10px);
     box-shadow: 10px -10px 10px -8px var(--darkGrey);
     opacity:1;
