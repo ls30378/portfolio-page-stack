@@ -5,6 +5,7 @@
     --grey:#2F2F2F;
     --darkGrey:#202020;
     --white:#F6F6F6;
+    --darkerWhite: #b9b9b9;
     --second-color: #FFCB74;
 }
 html{
@@ -168,7 +169,7 @@ filter:blur(4px);
 /* TITLE */
 .title{
     position: relative;
-    color:var(--white);
+    color:var(--second-color);
     text-transform: uppercase;
     letter-spacing: 0.3em;
 }
@@ -302,7 +303,7 @@ font-style:italic;
 padding:10px;
 font-size:5rem;
 color:var(--white);
-animation:techAnimation 2s infinite;
+/* animation:techAnimation 2s infinite; */
 }
 .about--technologies i:nth-child(2){
 
