@@ -304,6 +304,29 @@ padding:10px;
 font-size:5rem;
 color:var(--white);
 /* animation:techAnimation 2s infinite; */
+background-color:transparent;
+transition:all 1s;
+overflow:hidden;
+position: relative;
+cursor:pointer;
+
+}
+.about--technologies i:hover{
+color:var(--grey);
+}
+.about--technologies i::after{
+    content:"";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:var(--second-color);
+    left:0;
+    top:-100%;
+    z-index:-1;
+    transition:all 1s;
+}
+.about--technologies i:hover::after{
+    top:0;
 }
 .about--technologies i:nth-child(2){
 
