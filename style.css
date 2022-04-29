@@ -542,6 +542,7 @@ align-items: center;
     width: 100%;
     position:relative;
     display: flex;
+
     justify-content: center;
     align-items: center;
 }
@@ -549,6 +550,7 @@ align-items: center;
 .project--card-tags a{
 color:var(--black);
 animation: tagScale 0.7s alternate infinite;
+margin:0 20px;
 }
 
 
