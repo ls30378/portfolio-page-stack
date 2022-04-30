@@ -1,5 +1,3 @@
-<img width="300px" height="300px" src="https://ls30378.github.io/portfolio-page-stack/images/portfolio.gif" />
-
 # Portfolio
 
 Is a portfolio which provides page stack navigation with a 3D
